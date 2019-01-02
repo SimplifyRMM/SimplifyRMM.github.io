@@ -3241,3 +3241,229 @@ footer {
 =            Font Family            =
 ===================================*/
 /*=====  End of Font Family  ======*/
+
+header .logo img {
+  max-width: 54px !important;
+}
+
+header .logo a {
+  color: white !important;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  white-space: pre;
+}
+
+header.transparent .logo-mobile {
+  top: 2px !important;
+  left: 2px !important;
+}
+
+header .logo-mobile a {
+  color: white !important;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  white-space: pre;
+}
+
+.owl-carousel {
+  cursor: unset !important;
+}
+
+.grabbing {
+  cursor: unset;
+}
+
+.newsletter-signup-email-container {
+  position: relative;
+  z-index: 9999;
+  width: 75%;
+  margin: -0px auto 0px;
+}
+
+.newsletter-signup-email-container h2 {
+  /* margin-top: 15px; */
+  margin-bottom: 0px !important;
+}
+
+.newsletter-signup-email-container p {
+  /* margin-bottom: 0px !important; */
+}
+
+.newsletter-signup-email-form {
+  padding: 20px;
+  box-shadow: 1px 1px 44px rgba(38, 63, 90, 0.09);
+  border-radius: 5px;
+  background-color: #fff;
+  /* margin-top: 15px; */
+}
+
+.newsletter-signup-email-form label {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #8198a6;
+}
+
+.newsletter-signup-email-form form input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+.newsletter-signup-email-form form input::-moz-placeholder {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #8198a6;
+}
+.newsletter-signup-email-form form input:-ms-input-placeholder {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+.newsletter-signup-email-form form input:-moz-placeholder {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+
+.newsletter-signup-email-input {
+  width: 100%;
+  font-size: 15px;
+  color: #8198a6;
+  padding-bottom: 18px;
+  border: none;
+  border-bottom: 2px solid #dee6eb;
+}
+
+.newsletter-signup-email-button {
+  font-size: 15px;
+  color: #fff;
+  padding: 15px 48px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.2s linear;
+  background-color: #0479ec;
+  font-family: "HelveticaNeue-Medium", serif;
+}
+
+.newsletter-signup-email-button:hover {
+  background-color: #238ff9;
+}
+
+@media only screen and (max-width: 991px) {
+  header .logo-mobile img {
+      max-width: 54px !important;
+  }
+}
+
+header.transparent .logo-mobile {
+  top: 0px;
+  -ms-transform: translate(0);
+  transform: translate(0);
+}
+
+.mobile-menu-open .mobile-block {
+  overflow-y: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 991px) {
+  .base-slider .inside {
+    top: 60% !important;
+  }
+  .base-slider p {
+    font-size: 16px !important;
+  }
+  .base-slider h2 {
+    font-size: 28px !important;
+  }
+  .base-slider {
+    height: 60%;
+  }
+  .mobile-menu .logo {
+    padding: 2px 0 0 2px !important;
+  }
+  /* header.transparent.active {
+    height: 100vh !important;
+  } */
+}
+@media only screen and (max-width: 768px) {
+  /* .base-slider .inside {
+    top: 65% !important;
+  } */
+  .base-slider h2 {
+    font-size: 24px !important;
+  }
+  .base-slider p {
+    font-size: 14px !important;
+  }
+  .base-slider {
+    padding-bottom: 55px;
+    padding-top: 145px !important;
+    background-color: #2d76eb;
+  }
+  .base-slider .inside {
+    margin-top: -15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .newsletter-signup-email-form {
+    margin-top: 15px;
+  }
+  .newsletter-signup-email-container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .base-slider h2 {
+    font-size: 20px !important;
+  }
+  .base-slider p {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .base-slider h2 {
+    font-size: 18px !important;
+  }
+  .base-slider p {
+    font-size: 11px !important;
+  }
+  .newsletter-signup-email-button {
+    padding: 8px 12px;
+  }
+  .copyright {
+    padding: 40px 0 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .base-slider .inside p {
+    line-height: 24px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+  .base-slider p {
+    font-size: 16px !important;
+  }
+}
+
+.base-slider h2 {
+  font-size: 44px;
+}
+
+.base-slider p {
+  font-size: 20px;
+}
+
+.why-choose {
+  margin-top: 30px;
+}
