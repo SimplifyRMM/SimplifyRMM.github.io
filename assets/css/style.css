@@ -3269,12 +3269,32 @@ header .logo-mobile a {
   white-space: pre;
 }
 
+header .menu a {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.contact .inside a, .contact .inside span {
+  font-size: 22px;
+  letter-spacing: unset;
+}
+
 .owl-carousel {
   cursor: unset !important;
 }
 
 .grabbing {
   cursor: unset;
+}
+
+.our-team ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post .bottom-post p {
+  text-align: initial;
 }
 
 .newsletter-signup-email-container {

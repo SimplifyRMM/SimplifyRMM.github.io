@@ -16,9 +16,13 @@ $( document ).ready(function() {
 	// 01. Carousel
 	// **********************************************************************//
 	$('.base-slider, .slider').owlCarousel({
-		loop: true,
+		loop: false,
 		margin: 0,
-		nav: true,
+		nav: false,
+		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
+		freeDrag: false,
 		navText: ["<img src='assets/images/arrow-left.png'>","<img src='assets/images/arrow-right.png'>"],
 		dots: false,
 		item: 1,
